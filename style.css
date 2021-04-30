@@ -2,13 +2,84 @@ body{
     /* width:800px; */
     text-align:center;
     margin:auto;
+    font-family: 'Spartan', sans-serif;
+    background: linear-gradient(220deg, #ff0000, #ff6700, #ffcd00, #67ff00, #00fdff, #00a3ff, #0049ff, #af00ff, #e700ff, #ff00ea, #ff007a);
+    background-size: 2200% 2200%;
+
+    -webkit-animation: AnimationName 20s ease infinite;
+    -moz-animation: AnimationName 20s ease infinite;
+    animation: AnimationName 20s ease infinite;
 }
 
-.blue{
-    background-color: blue;
-}
+
 
 img {
     max-width: 140px;
     margin:16px;
+}
+
+.text{
+   
+    display:flex;
+    justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 200px;
+  line-height: 100px;
+  width:70%;
+  max-width: 100%;
+  margin:0 auto;
+  padding: 8rem 0;
+}
+h1{
+    font-size:3rem;
+    max-width:100%;
+    margin:0 auto;
+    text-align:center;
+    color:white;
+}
+
+p{
+    font-size:2rem;
+    max-width:100%;
+    margin:0 auto;
+    color:white;
+    
+}
+
+input{
+    border: 2px solid white;
+    border-radius:50px;
+    width:50%;
+    font-size:4rem;
+    text-justify: center;
+    justify-content: center;
+    font-family: 'Spartan', sans-serif;
+    color:white;
+    margin:0 auto;
+    background-color: transparent;
+}
+
+.result{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+}
+
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 97%}
+    50%{background-position:100% 4%}
+    100%{background-position:0% 97%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 97%}
+    50%{background-position:100% 4%}
+    100%{background-position:0% 97%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 97%}
+    50%{background-position:100% 4%}
+    100%{background-position:0% 97%}
 }
