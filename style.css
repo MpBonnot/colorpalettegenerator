@@ -3,13 +3,14 @@ body{
     text-align:center;
     margin:auto;
     font-family: 'Spartan', sans-serif;
-    background: linear-gradient(220deg, #ff0000, #ff6700, #ffcd00, #67ff00, #00fdff, #00a3ff, #0049ff, #af00ff, #e700ff, #ff00ea, #ff007a);
+    background: linear-gradient(231deg, #ffa0a0, #ffbf8b, #ffed8b, #e2f984, #a9f984, #84f9d1, #84e9f9, #84b5f9, #9184f9, #ba84f9, #fe98ff);
     background-size: 2200% 2200%;
 
-    -webkit-animation: AnimationName 20s ease infinite;
-    -moz-animation: AnimationName 20s ease infinite;
-    animation: AnimationName 20s ease infinite;
+    -webkit-animation: AnimationName 19s ease infinite;
+    -moz-animation: AnimationName 19s ease infinite;
+    animation: AnimationName 19s ease infinite;
 }
+
 
 
 
@@ -61,7 +62,9 @@ input{
 }
 
 .result{
-    width: 100%;
+    border: solid white;
+    width: 40%;
+    max-width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1rem;
@@ -69,17 +72,17 @@ input{
 
 
 @-webkit-keyframes AnimationName {
-    0%{background-position:0% 97%}
-    50%{background-position:100% 4%}
-    100%{background-position:0% 97%}
+    0%{background-position:94% 0%}
+    50%{background-position:7% 100%}
+    100%{background-position:94% 0%}
 }
 @-moz-keyframes AnimationName {
-    0%{background-position:0% 97%}
-    50%{background-position:100% 4%}
-    100%{background-position:0% 97%}
+    0%{background-position:94% 0%}
+    50%{background-position:7% 100%}
+    100%{background-position:94% 0%}
 }
 @keyframes AnimationName { 
-    0%{background-position:0% 97%}
-    50%{background-position:100% 4%}
-    100%{background-position:0% 97%}
+    0%{background-position:94% 0%}
+    50%{background-position:7% 100%}
+    100%{background-position:94% 0%}
 }
